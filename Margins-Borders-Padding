@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Margins, Borders, and Padding</title>
+        <style>
+            body {
+                font-family: cursive;
+            }
+            .photo-gallery {
+                background: rgb(255, 254, 217);
+                overflow-y: auto;
+                overflow-x: hidden;
+                margin: 15px 0px 10px 6px;
+                margin-bottom: 10px;
+                margin-left: 10px
+                margin-right: 10px;
+                margin-top: 10px;
+                padding: 20px;
+            }
+            .photo {
+                width: 200px;
+                margin: 10px;
+                margin-bottom: 10px;
+                border: 9px ridge black;
+            }
+           
+        </style>
+    </head>
+    <body>
+
+        <h1>Margins, Borders, and Padding</h1>
+        
+        <div class="photo-gallery">
+        
+            <img class="photo" src="https://www.kasandbox.org/programming-images/avatars/starky-seed.png">
+            
+            <img class="photo" src="https://www.kasandbox.org/programming-images/avatars/starky-sapling.png">
+            
+            <img class="photo" src="https://www.kasandbox.org/programming-images/avatars/starky-tree.png">
+            
+        </div>
+        
+    </body>
+</html>
